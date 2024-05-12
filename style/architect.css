@@ -117,13 +117,13 @@ main {
 }
 
 /* feature section */
-.features {
+.feature {
     margin-top: 130px;
     display: flex;
     gap: 100px;
 }
 
-.features .section-title {
+.feature .section-title {
     border-left: 5px solid #FF900E;
     padding-left: 20px;
 }
@@ -229,12 +229,15 @@ footer {
 
     nav,
     .teams-container,
-    .features,
+    .feature,
     .facts-card-container,
     .sponsors-img-container {
         flex-direction: column;
     }
 
+    .feature .p{
+        margin-left: 10px;
+    }
     .feature-img {
         margin: 0 20px;
     }
@@ -268,6 +271,15 @@ footer {
         gap: 20px;
     }
 
+    .footer{
+        height: auto;
+    }
+
+    .footer-text{
+        font-size: 0.8rem;
+        white-space: ;
+    }
+
 }
 
 /* tablet devices */
@@ -279,7 +291,7 @@ footer {
 
     nav,
     .teams-container,
-    .features,
+    .feature,
     .sponsors-img-container {
         flex-direction: column;
     }
